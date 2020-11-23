@@ -1,0 +1,115 @@
+
+
+/* Navigation + header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	background: whitesmoke;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1.9fr 0.6fr;
+  grid-template-areas:
+    "logo Header Header Header search"
+    "Main Main Main Main Main"
+    "Footer Footer Footer Footer Footer";
+}
+.logo { grid-area: logo; 
+background-color: crimson;}
+.Header { grid-area: Header; 
+  width: 100%;
+  background-color: crimson;}
+.Header a {
+  width: 33%;
+  text-align: center;
+}
+.search { grid-area: search; 
+background-color: crimson;}
+.Main { grid-area: Main; }
+.Footer { grid-area: Footer; }
+
+
+li{
+  list-style-type: none;
+  margin: 0 2vw;
+  text-align: center;
+  display: inline;
+}
+
+a{
+  text-decoration: none;
+  /*below I changed the color*/
+  color: black;
+  /*I added some padding*/
+  padding: 2vw;
+  
+  /*also changed the font family but that's totally irrelevant*/
+  font-family: monospace;
+  font-size: 2vh;
+  
+ 
+
+}
+
+
+ul{
+  margin: 0;
+  
+
+    /*this option by default dispose the elements in a row (flex-direction: row)*/
+  display: flex;
+  position: relative; 
+  padding-top: 30px;
+  text-align:center; 
+  
+} 
+*/
+body{
+  margin: 0;
+}
+
+nav a:hover {
+  color:white;
+  transition: all ease-in-out 200ms;
+  cursor: pointer;
+}
+
+a:hover{
+  background-color:#C10027;
+  transition: all ease-in-out 200ms;
+}
+
+nav.search {
+  height: 50%;
+  position: relative;
+  padding-top: 30px;
+}
+
+nav.logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: auto;
+}
+*/
+@media only screen and (max-width: 500px) {
+  /*shows elements in a column*/
+  ul{
+    flex-direction: column;
+  }
+  
+  /* deletes margin on top or bottom of the a tag*/
+  li{
+    margin: 0;
+  }
+ /* makes sure that the a tag will take the entire screen*/
+  a{
+    display: block;
+
+  }
+}
