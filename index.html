@@ -8,15 +8,13 @@
 	<title>Heart Research Institute</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="icon" href="Images/drop-of-blood.png" type="image/gif" sizes="16x16">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap" rel="stylesheet">
-
-
 </head>
 
 <body>
-  <div class="grid-container" id="myTopNav">
+  <!-- <div class="grid-container" id="myTopNav">
     <div class="logo">
       <img src="Images/logo" alt="HRI Logo" />
     </div>
@@ -24,8 +22,18 @@
       <a class="active" href="index.html">HRI Home</a>
       <a href="aboutus.html">About Us</a>
       <a href="give.html"> Give </a>
+    </div> -->
+  <div id='myTopNav' class='nav'>
+      <h1 class='header'><a href="/" class='current'>HRI</a></h1>
+
+      <a href="">HRI Home</a>
+      <a href="">About Us</a>
+      <a href="">Donate</a>
+      <a id="open-nav" href="javascript:void(0)" class='icon'>
+        <i class='fa fa-bars'></i>
+      </a>
     </div>
-  </div>
+  <!-- </div> -->
 <!--
     <li> 
             <a href="index.html"> HRI Home </a>
@@ -65,5 +73,5 @@
 		
 	</footer>
 </body>
-
+<script src="index.js"></script>
 </html>
