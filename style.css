@@ -103,9 +103,6 @@ a:hover {
 
 @media screen and (max-width: 768px) {
     /* Responsive navigation */
-    div.content2 {
-        flex-wrap: wrap;
-    }
     .nav a:not(:first-child) {
         display: none;
     }
@@ -126,7 +123,18 @@ a:hover {
     .nav.responsive a:nth-child(2) {
         margin-top: -14px;
     }
+    #container2 {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    .display-image{
+      width: 110%;
+      height: 110%;
+      margin: auto;
+    }
+
 }
+
 
 
 
@@ -145,6 +153,28 @@ a:hover {
 
 #container2 {
   text-align: left;
-  margin-left: 100px;
-  padding-right: 400px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  /* margin-left: 100px; */
+  /* padding-right: 700px; */
+}
+
+.section-text {
+  
+}
+.display-image {
+  margin-top: 2rem;
+  width: 40%;
+  height: 40%;
+  /* height:  */
+}
+.picture1 {
+  margin-left: 750px;
+  margin-top: -300px;
+}
+
+.picture2{
+  margin-left: 900px;
+  margin-top: -100px;
 }
