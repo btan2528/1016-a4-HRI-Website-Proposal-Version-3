@@ -45,13 +45,14 @@ li{
 a{
   text-decoration: none;
   /*below I changed the color*/
-  color: black;
+  color: white;
   /*I added some padding*/
   padding: 2vw;
   
+  
   /*also changed the font family but that's totally irrelevant*/
   font-family: monospace;
-  font-size: 2vh;
+  font-size: 3vh;
   
  
 
