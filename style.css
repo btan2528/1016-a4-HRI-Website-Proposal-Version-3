@@ -42,12 +42,10 @@ background-color: crimson;}
 .Footer { grid-area: Footer; }
 
 
-
-
 a {
   text-decoration: none;
   /*below I changed the color*/
-  color: white;
+  color: rgb(196, 196, 196);
   /*I added some padding*/
   padding-right: 30px;
   padding-left: 30px;
@@ -61,7 +59,7 @@ a {
 }
 
 a:nth-child(3) {
-  background: rgb(230, 102, 102);
+  color: white;
 }
 
 ul {
