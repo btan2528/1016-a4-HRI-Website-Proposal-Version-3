@@ -30,14 +30,14 @@ padding-left: 60px;
 .Header { grid-area: Header; 
   width: 100%;
   background-color: crimson;
-  text-align: center;
+  text-align: left;
   display: inline-block;
   padding-top: 15px;
 }
 
 .Header a {
   width: 33%;
-  text-align: center;
+  text-align: left;
 }
 
 .search { grid-area: search; 
