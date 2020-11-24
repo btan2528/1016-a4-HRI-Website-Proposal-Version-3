@@ -24,7 +24,7 @@ body {
 
 .logo { grid-area: logo; 
 background-color: crimson;
-padding-left: 60px;
+padding-left: 8vw;
 }
 
 .Header { grid-area: Header; 
@@ -35,10 +35,6 @@ padding-left: 60px;
   padding-top: 15px;
 }
 
-.Header a {
-  width: 33%;
-  text-align: left;
-}
 
 .search { grid-area: search; 
 background-color: crimson;}
@@ -53,8 +49,7 @@ a {
   /*below I changed the color*/
   color: white;
   /*I added some padding*/
-  padding: 3vw;
-  padding-top: 3vw;
+  padding: 4vw;
   /*also changed the font family but that's totally irrelevant*/
   font-family: 'Roboto Mono', monospace;
   font-size: 2vh;
