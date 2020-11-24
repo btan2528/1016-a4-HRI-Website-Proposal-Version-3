@@ -60,6 +60,9 @@ a {
   margin: auto;
 }
 
+a:nth-child(3) {
+  background: rgb(230, 102, 102);
+}
 
 ul {
   margin: 0;
@@ -83,21 +86,18 @@ a:hover {
   transition: all ease-in-out 250ms;  
 }
 
-
-*/
-@media only screen and (max-width: 500px) {
-  /*shows elements in a column*/
-  ul{
-    flex-direction: column;
-  }
-  
-  /* deletes margin on top or bottom of the a tag*/
-  li{
-    margin: 0;
-  }
- /* makes sure that the a tag will take the entire screen*/
-  a{
-    display: block;
-
-  }
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
 }
