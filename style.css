@@ -23,7 +23,10 @@ body {
 }
 
 .logo { grid-area: logo; 
-background-color: crimson;}
+background-color: crimson;
+padding-left: 60px;
+}
+
 .Header { grid-area: Header; 
   width: 100%;
   background-color: crimson;
@@ -31,6 +34,7 @@ background-color: crimson;}
   display: inline-block;
   padding-top: 10px;
 }
+
 .Header a {
   width: 33%;
   text-align: center;
@@ -56,8 +60,6 @@ a {
   font-size: 3vh;
   text-align: center;
   margin: auto;
- 
-
 }
 
 
