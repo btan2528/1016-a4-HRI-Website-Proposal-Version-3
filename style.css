@@ -12,15 +12,7 @@ body {
 	font-weight: 800;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 0.9fr 1.1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.5fr 1.9fr 0.6fr;
-  grid-template-areas:
-    "logo Header Header Header Header"
-    "Main Main Main Main Main"
-    "Footer Footer Footer Footer Footer";
-}
+
 
 .logo { 
   grid-area: logo; 
@@ -143,4 +135,26 @@ a:hover {
     .nav.responsive a:nth-child(2) {
         margin-top: -14px;
     }
+}
+
+
+
+#container {
+  background-image: url("Images/lol1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  font-size: 30px;
+  text-align: right;
+  padding-right: 30px;
+  bottom: 100px;
+  margin: -45px;
+
+}
+
+#header-text {
+  width: 50%;
+  margin: auto;
+  color: white;
 }
