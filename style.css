@@ -33,6 +33,7 @@ body {
   height: 50px;
 }
 
+/*
 .Header { grid-area: Header; 
   width: 100%;
   background-color: crimson;
@@ -40,6 +41,7 @@ body {
   display: inline-block;
   padding-top: 15px;
 }
+*/
 
 .search { grid-area: search; 
 background-color: crimson;}
@@ -62,7 +64,7 @@ background-color: crimson;}
     text-align: center;
     padding: 1rem 1.5rem;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .nav a:hover {
@@ -84,10 +86,6 @@ a {
   /*below I changed the color*/
   color: rgb(196, 196, 196);
   /*I added some padding*/
-  padding-right: 30px;
-  padding-left: 30px;
-  padding-top: 16px;
-  padding-bottom: 16px;
   /*also changed the font family but that's totally irrelevant*/
   font-family: 'Roboto Mono', monospace;
   font-size: 2vh;
