@@ -4,6 +4,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
 body {
 	margin: 0;
 	background: whitesmoke;
@@ -25,20 +26,22 @@ body {
 background-color: crimson;}
 .Header { grid-area: Header; 
   width: 100%;
-  background-color: crimson;}
+  background-color: crimson;
+  text-align: center;
+  display: inline-block;
+  padding-top: 10px;
+}
 .Header a {
   width: 33%;
   text-align: center;
 }
+
 .search { grid-area: search; 
 background-color: crimson;}
 .Main { grid-area: Main; }
 .Footer { grid-area: Footer; }
 
-.header {
-  text-align: center;
-  display: inline-block;
-}
+
 
 
 a {
