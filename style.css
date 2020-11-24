@@ -20,6 +20,7 @@ body {
     "Main Main Main Main Main"
     "Footer Footer Footer Footer Footer";
 }
+
 .logo { grid-area: logo; 
 background-color: crimson;}
 .Header { grid-area: Header; 
@@ -34,35 +35,31 @@ background-color: crimson;}
 .Main { grid-area: Main; }
 .Footer { grid-area: Footer; }
 
-
-li{
-  list-style-type: none;
-  margin: 0 2vw;
+.header {
   text-align: center;
-  display: inline;
+  display: inline-block;
 }
 
-a{
+
+a {
   text-decoration: none;
   /*below I changed the color*/
   color: white;
   /*I added some padding*/
-  padding: 2vw;
-  
-  
+  padding: 3vw;
+  padding-top: 3vw;
   /*also changed the font family but that's totally irrelevant*/
   font-family: monospace;
   font-size: 3vh;
-  
+  text-align: center;
+  margin: auto;
  
 
 }
 
 
-ul{
+ul {
   margin: 0;
-  
-
     /*this option by default dispose the elements in a row (flex-direction: row)*/
   display: flex;
   position: relative; 
@@ -86,12 +83,7 @@ a:hover{
   transition: all ease-in-out 200ms;
 }
 
-nav.search {
-  height: 50%;
-  width: 30px;
-  position: relative;
-  padding-top: 30px;
-}
+
 
 nav.logo {
 
