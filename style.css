@@ -73,11 +73,12 @@ body{
   margin: 0;
 }
 
+a:hover {
+  background-color: #111;
+  font-size: 2.1vh;
 
-a:hover{
-  background-color:#C10027;
-  transition: all ease-in-out 200ms;
 }
+
 
 */
 @media only screen and (max-width: 500px) {
