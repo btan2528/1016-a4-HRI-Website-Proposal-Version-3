@@ -203,10 +203,11 @@ a:hover {
 
 
 #container3 {
-  background: gray;
-  text-align: right;
+  background: rgb(200, 200, 200);
+  text-align: center;
   margin: auto;
-  display: flex;
+  padding: 1rem;
   color: crimson;
+  font-size: 25px;
 
 }
