@@ -60,6 +60,8 @@ background-color: crimson;}
 .nav a:hover {
     background-color: #ddd;
     color: black;
+    font-size: 1.2rem;
+    transition: ease-in-out 200ms;
 }
 
 .nav a.current {
@@ -218,7 +220,7 @@ a:hover {
   background: rgb(200, 200, 200);
   text-align: center;
   margin: auto;
-  padding: 1rem;
+  padding: 0.5rem;
   color: crimson;
   font-size: 25px;
 
@@ -261,7 +263,7 @@ a:hover {
 /* Position the "next button" to the right */
 .next {
   position: absolute;
-  right: 50px;;
+  right: 50px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -295,7 +297,9 @@ a:hover {
 }
 
 /* Add an italic font style to all quotes */
-q {font-style: italic;}
+q {
+  color: white;
+  }
 
 /* Add a blue color to the author */
 .author {color: cornflowerblue;}
@@ -306,5 +310,5 @@ q {font-style: italic;}
  height: 250px;
  border-radius: 50%;
  margin: auto;
- padding: 1rem;
+ padding: 2rem;
 }
