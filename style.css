@@ -247,8 +247,6 @@ a:hover {
 #container3 {
   background: rgb(200, 200, 200);
   text-align: center;
-  margin: auto;
-  padding: 0.5rem;
   color: crimson;
   font-size: 25px;
 
@@ -346,13 +344,6 @@ a:hover {
   background-color: #717171;
 }
 
-/* Add an italic font style to all quotes */
-q {
-  color: white;
-  }
-
-/* Add a blue color to the author */
-.author {color: cornflowerblue;}
 
 
 .display-image2 {
@@ -364,14 +355,22 @@ q {
 }
 
 .button {
-  background-color: black; 
   border: none;
-  color: crimson;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
+  background-color: crimson;
+  padding: 14px 28px;
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
   display: inline-block;
-  font-size: 30px;
+  font-family: 'Work Sans', sans-serif;
+  margin: auto;
+
+}
+
+.button:hover {
+  background: rgb( 150, 30, 70);
+  font-size: 18px;
 }
 
 h2 {
