@@ -10,9 +10,7 @@ body {
 	background: whitesmoke;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
-}
-
-
+}`  `1v
 
 .logo { 
   grid-area: logo; 
@@ -128,10 +126,6 @@ a:hover {
       font-size: 20px;
       height: 50px;
     }
-/* 
-    #container {
-    
-    } */
 
     #container > img {
       width: 110px;
@@ -146,18 +140,18 @@ a:hover {
       flex-wrap: wrap;
       text-align: center;
     }
+
     .display-image{
       width: 110%;
       height: 110%;
       margin: auto;
     }
+
     #container > div {
-      border-radius: 20px;
-      border: 4px solid white;
       margin: auto;
       width: 50%;
       background-color: rgb(128, 128, 128, 0.7);
-      padding: 2rem;
+      padding: 1rem;
     }
 
 }
@@ -180,7 +174,7 @@ a:hover {
 
 #container2 {
   text-align: left;
-  width: 90%;
+  width: 80%;
   margin: auto;
   display: flex;
   /* margin-left: 100px; */
@@ -190,12 +184,14 @@ a:hover {
 .section-text {
   
 }
+
 .display-image {
-  margin-top: 2rem;
+  margin-top: 3rem;
   width: 40%;
   height: 40%;
   /* height:  */
 }
+
 .picture1 {
   margin-left: 750px;
   margin-top: -300px;
