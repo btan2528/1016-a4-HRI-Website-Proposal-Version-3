@@ -156,7 +156,7 @@ a:hover {
 
     }
 
-    .display-image{
+    .display-image {
       width: 100%;
       height: 100%;
       margin: auto;
@@ -167,6 +167,18 @@ a:hover {
       width: 50%;
       background-color: rgb(128, 128, 128, 0.7);
       padding: 1rem;
+    }
+
+    .display-image2 {
+      display: none;
+    }
+
+    .mySlides > h1 {
+      font-size: 25px;
+    }
+
+    .mySlides > q {
+      font-size: 15px;
     }
 
 }
