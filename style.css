@@ -150,11 +150,11 @@ a:hover {
 
     }
 
+     
     #container3 > h1{
       font-size: 25px;
-
-
     }
+    
 
     .display-image {
       width: 100%;
@@ -173,14 +173,30 @@ a:hover {
       display: none;
     }
 
+    /* 'HRI NEWS' */
+
     .mySlides > h1 {
       font-size: 25px;
     }
+    
 
-    .mySlides > q {
+    .mySlides > p {
       font-size: 15px;
     }
 
+    .prev {
+      margin-left: 50px;
+      color: rgb(255, 0, 0);
+    }
+
+    .next {
+      margin: auto;
+      padding: 16px;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
 }
 
 
@@ -261,6 +277,13 @@ a:hover {
   animation-duration: 0.5s;
 }
 
+.mySlides > p{
+  color: black;
+  font-size: 18px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
@@ -278,10 +301,10 @@ a:hover {
   width: auto;
   margin-top: -150px;
   margin-left: -640px;
-  padding: 16px;
-  color: #888;
+  padding: 30px;
+  color:crimson;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
@@ -291,6 +314,7 @@ a:hover {
   position: absolute;
   right: 50px;
   border-radius: 3px 0 0 3px;
+  color:crimson;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -337,4 +361,20 @@ q {
  border-radius: 50%;
  margin: auto;
  padding: 2rem;
+}
+
+.button {
+  background-color: black; 
+  border: none;
+  color: crimson;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 40px;
+  color: crimson;
 }
