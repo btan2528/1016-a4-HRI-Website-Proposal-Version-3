@@ -280,8 +280,8 @@ a:hover {
 .mySlides > p{
   color: black;
   font-size: 18px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 @-webkit-keyframes fade {
@@ -299,27 +299,27 @@ a:hover {
   cursor: pointer;
   position: absolute;
   width: auto;
-  margin-top: -150px;
-  margin-left: -640px;
-  padding: 30px;
-  color:crimson;
+  margin-top: -450px;
+  margin-left: -400px;
+  padding: 1rem 1rem 3rem 1rem;
+  color: white;
   font-weight: bold;
-  font-size: 30px;
-  border-radius: 0 3px 3px 0;
+  font-size: 50px;
+  border-radius: 10px 10px 10px 10px;
   user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
   position: absolute;
-  right: 50px;
-  border-radius: 3px 0 0 3px;
-  color:crimson;
+  right: 330px;
+  border-radius: 10px 10px 10px 10px;
+  color: white;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(87, 87, 87, 0.8);
   color: white;
 }
 
