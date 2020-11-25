@@ -151,7 +151,7 @@ a:hover {
     }
 
      
-    #container3 > h1{
+    #container3 > h1 {
       font-size: 25px;
     }
     
@@ -197,7 +197,24 @@ a:hover {
       border-radius: 0 3px 3px 0;
       user-select: none;
     }
+
+    .mySlides > p {
+      color: black;
+      font-size: 10px;
+      margin: 10px;
+    }
+
+    #container4 > p {
+      margin-left: 1px;
+      margin-right: 1px;
+    }   
+    
 }
+    
+
+
+
+
 
 
 
@@ -249,6 +266,7 @@ a:hover {
   text-align: center;
   color: crimson;
   font-size: 25px;
+  
 
 }
 
@@ -275,11 +293,14 @@ a:hover {
   animation-duration: 0.5s;
 }
 
-.mySlides > p{
+.mySlides > p {
   color: black;
   font-size: 18px;
-  margin-left: 200px;
+  margin-left: 250px;
+  margin-right: 250px;
+ /* margin-left: 200px;
   margin-right: 200px;
+  */
 }
 
 @-webkit-keyframes fade {
@@ -376,4 +397,9 @@ a:hover {
 h2 {
   font-size: 40px;
   color: crimson;
+}
+
+#container4 > p {
+  margin-left: 500px;
+  margin-right: 50px;
 }
