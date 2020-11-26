@@ -508,6 +508,7 @@ footer > .button:hover {
 }
 
 
+
 #container6 {
   background-image: url("Images/girl.png");
   background-size: cover;
@@ -517,17 +518,92 @@ footer > .button:hover {
   color: white;
   text-align: center;
   padding-top: 60px;
-  
-
-
 }
 
 #container7 {
   text-align: left;
-  width: 80%;
+  width: 60%;
   margin: auto;
   padding: 2rem;
 }
+
+#container8 {
+  background-image: url("Images/science.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 160px;
+  color: white;
+}
+#team-container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+#container9 {
+  display: inline-flex;
+}
+#container9 > img {
+  display: inline-block;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+}
+
+#container9 > img:hover {
+  opacity: 0.4;
+  transition: ease-in-out 200ms;
+}
+#container9 > img:hover .hover-text {
+  display: block;
+  top: 50px;
+}
+
+.hover-text {
+  display: none;
+}
+#container9 > .hover-div {
+  
+  background-size: cover;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+}
+#container9 > .hover-div:nth-child(1) {
+  background-image: url("Images/doctor.jpg");
+  top: 30px;
+}
+#container9 > .hover-div:nth-child(2) {
+  background-image: url("Images/doctor2.jpg");
+}
+#container9 > .hover-div:nth-child(3) {
+  background-image: url("Images/doctor3.jpg");
+}
+#container9 > .hover-div:nth-child(4) {
+  background-image: url("Images/doctor4.jpg");
+}
+.hover-div:hover {
+  opacity: 0.4;
+  transition: ease-in-out 200ms;
+}
+.hover-div:hover .hover-text {
+  display: block;
+  padding-top: 70px;
+}
+
+#container9  {
+  margin: 50px;
+  text-align: center;
+}
+
+
+
 
 
 
