@@ -147,6 +147,7 @@ a:hover {
     #container3 {
       flex-wrap: wrap;
       text-align: center;
+      
 
     }
 
@@ -410,9 +411,50 @@ h2 {
 }
 
 #container4 > p {
-  margin-left: 500px;
-  margin-right: 50px;
+  
 }
+
+#container4 {
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  padding: 2rem;
+}
+
+footer > h2 {
+  padding: 30px;
+  text-align: center;
+  
+}
+
+
+footer {
+  background-image: url("Images/hands2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  text-align: center;
+  
+}
+
+
+footer > .button {
+  top: -50px;
+  margin: 50px;
+  background-color: white;
+  color: crimson
+}
+
+footer > .button:hover {
+  background-color:lightgray;
+}
+
+
+
+
+
+
 
 
 
@@ -510,7 +552,7 @@ label {
 }
 
 .btn:hover {
-  background-color: #45a049;
+  background-color: crimson;
 }
 
 span.price {
