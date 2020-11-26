@@ -440,8 +440,8 @@ footer {
 
 
 footer > .button {
-  top: -50px;
-  margin: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
   background-color: white;
   color: crimson
 }
