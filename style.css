@@ -239,6 +239,8 @@ a:hover {
       margin-bottom: 20px;
     }
 
+  
+
 
     footer > .button {
       
@@ -246,11 +248,7 @@ a:hover {
       color: crimson
     }
 
-    footer {
-      background-image: url(Images/hands.jpg) center center cover no-repeat fixed;
-      height: 150vh;
-      text-align: center;
-    } 
+    
 
     .fa {
         width: 50px;
@@ -649,19 +647,24 @@ footer > .button:hover {
   background-image: url("Images/doctor.jpg");
   top: 30px;
 }
+
 #container9 > .hover-div:nth-child(2) {
   background-image: url("Images/doctor2.jpg");
 }
+
 #container9 > .hover-div:nth-child(3) {
   background-image: url("Images/doctor3.jpg");
 }
+
 #container9 > .hover-div:nth-child(4) {
   background-image: url("Images/doctor4.jpg");
 }
+
 .hover-div:hover {
   opacity: 0.4;
   transition: ease-in-out 200ms;
 }
+
 .hover-div:hover .hover-text {
   display: block;
   padding-top: 70px;
@@ -788,24 +791,30 @@ span.price {
   
     #container8 {
       background-image: url("Images/medical.png")
-      
-    }
-
-    #container8 > h4 {
-      margin-top: -40px;
-      font-size: 50px;
-      color: black;
     }
 
     .hover-text {
       margin-left: 20px;
     }
-}
-  
 
-}
+    footer > .button {
+      margin: 10px;
+    }
 
+    .fa {
+      margin: 10px;
+    }
+
+    footer {
+      background-image: url("Images/blackheart.png");
       
+    } 
+    
 
-
+    
 }
+
+
+
+
+
