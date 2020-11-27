@@ -112,18 +112,29 @@ a:hover {
 
 @media screen and (max-width: 768px) {
     /* Responsive navigation */
+    div.content2 {
+        flex-wrap: wrap;
+    }
+    
     .nav a:not(:first-child) {
         display: none;
     }
     .nav a.icon {
         float: right;
+        margin-top: -55px;
+        margin-right: -50px;
         display: block;
+        
+    
     }
+    
     .nav.responsive .icon {
         position: absolute;
         right: 0;
-        top: 0;
+        top: 1rem;
+        
     }
+
     .nav.responsive a {
         float: none;
         display: block;
@@ -236,10 +247,8 @@ a:hover {
     }
 
     footer {
-      background-image: rgb(200, 200, 200);
-      background-size: 300px 800px;
-      background-repeat: no-repeat;
-      height: 100vh;
+      background-image: url(Images/hands.jpg) center center cover no-repeat fixed;
+      height: 150vh;
       text-align: center;
     } 
 
@@ -259,6 +268,21 @@ a:hover {
         margin-left: 30px;
         margin-right: 30px;
       }  
+
+      #container9 {
+        display: block;
+        width: 5em;
+        padding-right:150px;
+        flex-direction: column;
+
+      }
+      
+      .hover-div {
+        display: flex;
+        width: 30px;
+        
+      }
+      
 
     .dot {
       cursor: pointer;
@@ -582,12 +606,14 @@ footer > .button:hover {
   font-size: 30px;
   padding-top: 160px;
   color: white;
+  
 }
 #team-container {
   width: 90%;
   margin: auto;
   text-align: center;
 }
+
 #container9 {
   display: inline-flex;
 }
@@ -611,14 +637,15 @@ footer > .button:hover {
 .hover-text {
   display: none;
 }
+
 #container9 > .hover-div {
-  
   background-size: cover;
   border-radius: 50%;
   width: 200px;
   height: 200px;
   margin: 30px;
 }
+
 #container9 > .hover-div:nth-child(1) {
   background-image: url("Images/doctor.jpg");
   top: 30px;
