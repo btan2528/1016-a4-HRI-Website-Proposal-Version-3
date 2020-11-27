@@ -627,6 +627,7 @@ footer > .button:hover {
   opacity: 0.4;
   transition: ease-in-out 200ms;
 }
+
 #container9 > img:hover .hover-text {
   display: block;
   top: 50px;
@@ -796,7 +797,12 @@ span.price {
       color: black;
     }
 
+    .hover-text {
+      margin-left: 20px;
+    }
+}
   
+
 }
 
       
