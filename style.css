@@ -282,6 +282,7 @@ a:hover {
         width: 30px;
         
       }
+
       
 
     .dot {
@@ -290,9 +291,6 @@ a:hover {
       width: 50px;
       
     }
-
-    
-
 
     
 }
@@ -597,13 +595,13 @@ footer > .button:hover {
 
 #container8 {
   background-image: url("Images/science.png");
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
   height: 40vh;
   padding: 2rem;
   color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   padding-top: 160px;
   color: white;
   
@@ -781,4 +779,27 @@ label {
 span.price {
   float: right;
   color: grey;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  
+    #container8 {
+      background-image: url("Images/medical.png")
+      
+    }
+
+    #container8 > h4 {
+      margin-top: -40px;
+      font-size: 50px;
+      color: black;
+    }
+
+  
+}
+
+      
+
+
 }
