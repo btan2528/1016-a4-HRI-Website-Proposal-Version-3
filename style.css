@@ -10,7 +10,7 @@ body {
 	background: whitesmoke;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
-}`  `1v
+}
 
 .logo { 
   grid-area: logo; 
@@ -33,8 +33,7 @@ body {
 }
 */
 
-
-
+/* navigation bar stuff */
 #myTopNav {
     margin-top: -16px;
     
@@ -45,8 +44,6 @@ body {
     background-color: crimson; 
     
 }
-
-
 
 .nav a {
     float: left;
@@ -73,6 +70,7 @@ body {
 
 .nav .icon {
     display: none;
+    padding: 5px;
 }
 
 
@@ -88,8 +86,7 @@ a {
   margin: auto;
 }
 
-
-
+/* Donate button in nav */
 a:nth-child(4) {
   color: white;
 }
@@ -101,7 +98,6 @@ body{
 }
 
 a:hover {
-  background-color: rgba(255, 130, 130, 0.555);
   height: 2vw;
   transition: all ease-in-out 250ms;  
 }
@@ -111,29 +107,30 @@ a:hover {
     div.content2 {
         flex-wrap: wrap;
     }
+
     .nav a:not(:first-child) {
         display: none;
     }
+
     .nav a.icon {
         float: right;
         display: block;
         right: 10px;
         top: 10px; 
+        padding: 0px;
+    
     }
     .nav.responsive .icon {
         position: absolute;
         right: -10px;
-        top: -10px; 
+        top: 0px; 
+        padding: 0px;
     }
     .nav.responsive a {
         float: none;
         display: block;
         text-align: left;
     }
-    .nav.responsive a:nth-child(2) {
-        /* margin-top: -14px; */
-    }
-
     
 
     #container > img {
@@ -155,8 +152,6 @@ a:hover {
     #container3 {
       flex-wrap: wrap;
       text-align: center;
-      
-
     }
 
      
@@ -219,7 +214,7 @@ a:hover {
       margin-right: 1px;
     }   
 
-    .row {
+    .fillout-form {
     flex-direction: column-reverse;
     }
     
@@ -279,6 +274,10 @@ a:hover {
       height: 50px;
       width: 50px;
       
+    }
+
+    footer > p {
+     display: none;
     }
 
     
@@ -699,52 +698,30 @@ footer > .button:hover {
 
 
 
-/* User form for give page */
-#background {
+/* User form for donation page */
+#form-background {
   width: 50%;
   margin:auto;
 }
 
-
-.row {
+.fillout-form {
   display: -ms-flexbox; /* IE10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   margin: auto;
-  
-  
-  
-  
 }
 
-.col-25 {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  
-  
-}
-
-.col-50 {
+.column2 {
   -ms-flex: 50%; /* IE10 */
   flex: 50%;
-  
-  
-  
+  padding: 0 16px;
 }
 
-.col-75 {
+.column1 {
   -ms-flex: 75%; /* IE10 */
   flex: 75%;
-  
-  
-}
-
-.col-25,
-.col-50,
-.col-75 {
   padding: 0 16px;
-  
 }
 
 .container {
@@ -761,8 +738,6 @@ input[type=text] {
   border: 1px solid #ccc;
   border-radius: 3px;
 }
-
-
 
 label {
   margin-bottom: 10px;
@@ -791,6 +766,7 @@ label {
   cursor: pointer;
   font-size: 17px;
 }
+
  /* checkout button */
 .checkout {
   width: 100%;
@@ -818,9 +794,9 @@ span.price {
 }
 
 
-
+/* Extra media queriy for other changes */ 
 @media screen and (max-width: 768px) {
-    #background {
+    #form-background {
       width: 90%;
       
     }
@@ -869,6 +845,13 @@ span.price {
       margin: auto;
       width: 100%;
     }
+
+
+    
+
+
+    
+    
 
 
 
