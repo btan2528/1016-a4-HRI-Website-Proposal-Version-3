@@ -118,14 +118,18 @@ a:hover {
         right: 10px;
         top: 10px; 
         padding: 0px;
+        }
     
-    }
+    
     .nav.responsive .icon {
         position: absolute;
         right: -10px;
         top: 0px; 
         padding: 0px;
     }
+
+    
+    
     .nav.responsive a {
         float: none;
         display: block;
