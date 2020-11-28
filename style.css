@@ -791,9 +791,9 @@ label {
   cursor: pointer;
   font-size: 17px;
 }
-
+ /* checkout button */
 .checkout {
-  width: 50%;
+  width: 100%;
   background-color: crimson; 
   color: white;
   padding: 12px;
