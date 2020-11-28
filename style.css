@@ -127,8 +127,6 @@ a:hover {
         top: 0px; 
         padding: 0px;
     }
-
-    
     
     .nav.responsive a {
         float: none;
@@ -522,7 +520,7 @@ footer > .button:hover {
 /* social tiles */
 
 /* Style all font awesome icons */
-.fa {
+.da {
   width: 50px;
   text-align: center;
   text-decoration: none;
@@ -540,28 +538,28 @@ footer > .button:hover {
 }
 
 /* Add a hover effect if you want */
-.fa:hover {
+.da:hover {
   font-size: 16px;
   padding-bottom: 0;
-  background-color: gray;
+  background-color: blue;
 }
 
 /* Set a specific color for each brand */
 
 /* Facebook */
-.fa-facebook {
+.da-facebook {
   background: #3B5998;
   color: white;
 }
 
 /* Twitter */
-.fa-twitter {
+.da-twitter {
   background: #55ACEE;
   color: white;
 }
 
 /* Instagram */
-.fa-instagram {
+.da-instagram {
   background: rgb(224, 28, 175);
   color: white;
 }
@@ -851,10 +849,6 @@ span.price {
     }
 
 
-    
-
-
-    
     
 
 
