@@ -520,7 +520,7 @@ footer > .button:hover {
 /* social tiles */
 
 /* Style all font awesome icons */
-.da {
+.fa {
   width: 50px;
   text-align: center;
   text-decoration: none;
@@ -538,28 +538,28 @@ footer > .button:hover {
 }
 
 /* Add a hover effect if you want */
-.da:hover {
+.fa:hover {
   font-size: 16px;
   padding-bottom: 0;
-  background-color: blue;
+  background-color: rgb(150, 150, 150);
 }
 
 /* Set a specific color for each brand */
 
 /* Facebook */
-.da-facebook {
+.fa-facebook {
   background: #3B5998;
   color: white;
 }
 
 /* Twitter */
-.da-twitter {
+.fa-twitter {
   background: #55ACEE;
   color: white;
 }
 
 /* Instagram */
-.da-instagram {
+.fa-instagram {
   background: rgb(224, 28, 175);
   color: white;
 }
