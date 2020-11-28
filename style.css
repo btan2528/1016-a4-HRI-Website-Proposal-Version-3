@@ -335,7 +335,7 @@ a:hover {
 
 
 #container3 {
-  background: rgb(200, 200, 200);
+  background: rgb(220, 220, 220);
   text-align: center;
   color: crimson;
   font-size: 25px;
@@ -480,6 +480,7 @@ h2 {
   width: 80%;
   display: block;
   padding: 2rem;
+  
 }
 
 
